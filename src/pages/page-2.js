@@ -8,7 +8,7 @@ const SecondPage = () => (
      <div class="row">
   <div class="col-75">
     <div class="container">
-    <form name = "contact" method = "post" data-netlify = "true" data-netlify-honetpot = "bot-field">
+    <form name = "contact" method = "post" netlify = "true" data-netlify-honetpot = "bot-field">
     <label for="fname"> Full Name</label>
     <input type="text" id="fname" name="firstname" placeholder="John M. Doe"/>
     <label for="email"> Email</label>
