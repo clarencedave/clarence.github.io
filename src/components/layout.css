@@ -37,6 +37,24 @@ img {
 }
 
 
+.card {
+  color: white;
+  box-shadow: 0 4px 8px 0 white;
+  border-radius: 5px;
+
+}
+
+.container {
+  color: white;
+  padding: 0 16px;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+ }
+
 
 article,
 aside,
