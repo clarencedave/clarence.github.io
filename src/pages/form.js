@@ -7,21 +7,26 @@ const formPage = () => (
 
      <form name = "contact" method = "post" netlify = "true">
      <input type="hidden" name="form-name" value="contact" />  
-      <p>
-      <label>First Name:   <textarea id = "First Name" Fname = "Fname " placeholder = "Your First Name" type ="text"/></label>
-      </p>
+     
+     <label for="Firstname">First Name:</label>
+      <textarea id="Firstname" name="Firstname" placeholder="First Name" ></textarea>
+    
 
-      <p>
-      <label>Last Name:   <textarea id = "Last Name" Lname = "Lname " placeholder = "Your Last name" type ="text"/></label>
-      </p>
 
-      <p>
-      <label>Address:   <textarea id = "Address" address = "address " placeholder = "Address" type ="text"/></label>
-      </p>
+      <label for="Lastname">Last Name:</label>
+      <textarea id="Lastname" name="Lastname" placeholder="Last Name" ></textarea>
+    
 
-      <p>
-      <label>Email:   <textarea id = "Email" email = "mail " placeholder = "Email" type ="text"/></label>
-      </p>
+
+     <label for="Email">Email:</label>
+      <textarea id="Email" name="Email" placeholder="Email@example.com" ></textarea>
+    
+
+
+     <label for="Address">Address:</label>
+      <textarea id="Address" name="Address" placeholder="Address" ></textarea>
+    
+
 
       <label for="subject">Subject</label>
       <textarea id="subject" name="subject" placeholder="Write something.." ></textarea>
