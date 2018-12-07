@@ -31,7 +31,7 @@ const formPage = () => (
       <label for="subject">Subject</label>
       <textarea id="subject" name="subject" placeholder="Write something.." ></textarea>
     
-
+      <div data-netlify-recaptcha></div>
 
    <button type = "submit">Send</button>
    
