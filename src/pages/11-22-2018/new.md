@@ -14,17 +14,23 @@ the 1960s with the release of Letraset sheets containing Lorem Ipsum passages,
 and more recently with desktop publishing software like Aldus PageMaker
 including versions of Lorem Ipsum.
 
- <div class="row">
-  <div class="col-75">
-    <div class="container">
-    <form name = "contact" method = "post" netlify>
-    <label for="fname"> Full Name</label>
-    <input type="text" id="fname" name="firstname" placeholder="Full Name"/>
-    <label for="email"> Email</label>
-    <input type="text" id="email" name="email" placeholder="name@example.com"/>
-    <label for="adr"> Address</label>
-    <input type="text" id="adr" name="address" placeholder="Address"/>
-    <label for="city"> City</label>
-    <input type="text" id="city" name="city" placeholder="City"/>
-     <button type="submit" value="Submit">Submit</button>
-    </form>
+ <form name="contact" method="POST" netlify>
+  <p>
+    <label>Your Name: <input type="text" name="name" /></label>   
+  </p>
+  <p>
+    <label>Your Email: <input type="email" name="email" /></label>
+  </p>
+  <p>
+    <label>Your Role: <select name="role[]" multiple>
+      <option value="leader">Leader</option>
+      <option value="follower">Follower</option>
+    </select></label>
+  </p>
+  <p>
+    <label>Message: <textarea name="message"></textarea></label>
+  </p>
+  <p>
+    <button type="submit">Send</button>
+  </p>
+</form>
