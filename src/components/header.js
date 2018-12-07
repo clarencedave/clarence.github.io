@@ -45,6 +45,7 @@ const Header = ({ siteTitle }) => (
       <a href="about"> About </a> 
         <a href="#resource"> Resources </a> 
           <a href="leadership"> Leadership </a>
+          <a href="form"> Contact Us </a>
              </div>
   
     <div class="profit">

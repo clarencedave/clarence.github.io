@@ -17,6 +17,7 @@ body {
   width: 100%;
   background-color: black;
   overflow: auto;
+  
 }
 
 
@@ -102,11 +103,20 @@ input[type=submit] {
   color: white;
   text-decoration: none;
   font-size: 17px;
-  width: 25%; /* Four links of equal widths */
+  width: 20%; /* Four links of equal widths */
   text-align: center;
 }
 
+@media screen and (max-width: 650px) {
+ 
 
+  .header-right a {
+    float: none;
+    display: block;
+    width: 100%;
+    text-align: left;
+  }
+}
 
 
 
