@@ -8,19 +8,19 @@ const formPage = () => (
      <form name = "contact" method = "post" netlify = "true">
      <input type="hidden" name="form-name" value="contact" />  
       <p>
-      <label>First Name:   <textarea Fname = "Fname " placeholder = "Your First Name" type ="text"/></label>
+      <label>First Name:   <textarea id = "First Name" Fname = "Fname " placeholder = "Your First Name" type ="text"/></label>
       </p>
 
       <p>
-      <label>Last Name:   <textarea Lname = "Lname " placeholder = "Your Last name" type ="text"/></label>
+      <label>Last Name:   <textarea id = "Last Name" Lname = "Lname " placeholder = "Your Last name" type ="text"/></label>
       </p>
 
       <p>
-      <label>Address:   <textarea address = "address " placeholder = "Address" type ="text"/></label>
+      <label>Address:   <textarea id = "Address" address = "address " placeholder = "Address" type ="text"/></label>
       </p>
 
       <p>
-      <label>Email:   <textarea email = "mail " placeholder = "Email" type ="text"/></label>
+      <label>Email:   <textarea id = "Email" email = "mail " placeholder = "Email" type ="text"/></label>
       </p>
 
       <label for="subject">Subject</label>
