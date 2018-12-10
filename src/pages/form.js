@@ -9,30 +9,30 @@ const formPage = () => (
      <input type="hidden" name="form-name" value="contact" />  
      
      <label for="Firstname">First Name:</label>
-      <textarea id="Firstname" name="Firstname" placeholder="First Name" ></textarea>
+      <input id="Firstname" name="Firstname" placeholder="First Name" type = "text" ></input>
     
 
 
       <label for="Lastname">Last Name:</label>
-      <textarea id="Lastname" name="Lastname" placeholder="Last Name" ></textarea>
+      <input id="Lastname" name="Lastname" placeholder="Last Name" type = "text" ></input>
     
 
 
      <label for="Email">Email:</label>
-      <textarea id="Email" name="Email" placeholder="Email@example.com" ></textarea>
+      <input id="Email" name="Email" placeholder="Email@example.com" type = "text"  ></input>
     
 
 
      <label for="Address">Address:</label>
-      <textarea id="Address" name="Address" placeholder="Address" ></textarea>
+      <input id="Address" name="Address" placeholder="Address" type = "text" ></input>
     
 
 
       <label for="subject">Subject:</label>
-      <textarea id="subject" name="subject" placeholder="Write something.." ></textarea>
+      <textarea id="subject" name="subject" placeholder="Write something.." type = "text" ></textarea>
 
       <label for="message">Message:</label>
-      <textarea id="message" name="message" placeholder="Write something.." ></textarea>
+      <textarea id="message" name="message" placeholder="Write something.." type = "text" ></textarea>
 
       <div data-netlify-recaptcha></div>
 
