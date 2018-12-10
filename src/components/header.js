@@ -35,22 +35,34 @@ const Header = ({ siteTitle }) => (
     
      
     <div class="header">
-  <a   href="home" >
-    <img src= {logo} alt="Angel"/>
-       </a>
+  
   
 
-  <div class="header-right">
-    <a href="/"> Home </a> 
-      <a href="about"> About </a> 
-        <a href="#resource"> Resources </a> 
-          <a href="contacts"> Leadership </a>
-          <a href="form"> Contact Us </a>
-             </div>
+   <nav role="navigation">
+  <div id="menuToggle">
+   
+    <input type="checkbox" />
+    
+   
+    <span></span>
+    <span></span>
+    <span></span>
+    
+   
+    <ul id="menu">
+    <a   href="home" >
+    <img src= {logo} alt="Angel"/>
+       </a>
+        <a href="/"><li> Home </li></a> 
+        <a href="about"><li>About</li> </a> 
+        <a href="#resource"> <li>Resources</li> </a> 
+        <a href="contacts"><li>Leadership</li></a>
+        <a href="form"><li>Contact Us</li></a>
+    </ul>
+  </div>
+</nav>
   
-    <div class="profit">
-      <p>A non-profit corporation. Sparking the flame of angel investing in the Northwest</p>
-        </div>
+   
           </div>
 
 
