@@ -6,7 +6,11 @@ const formPage = () => (
     <Layout>
 
      <form name = "contact" method = "post" netlify = "true">
-     <input type="hidden" name="form-name" value="contact" />  
+     <input type="hidden" name="contact" value="contact" />  
+     <p class="hidden">
+    <label>Don’t fill this out if you're human: <input name="bot-field" /></label>
+    </p>
+
      
      <label for="Firstname">First Name:</label>
       <input id="Firstname" name="Firstname" placeholder="First Name" type = "text" ></input>
@@ -36,7 +40,7 @@ const formPage = () => (
 
       <div data-netlify-recaptcha></div>
 
-   <button type = "submit">Send</button>
+   <button type ="submit" >Send</button>
    
   
     </form>
