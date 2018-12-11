@@ -8,7 +8,7 @@ const formPage = () => (
      <form name = "contact" method = "post" netlify = "true">
      <input type="hidden" name="contact" value="contact" />  
      
-
+    
      
      <label for="Firstname">First Name:</label>
       <input id="Firstname" name="Firstname" placeholder="First Name" type = "text" ></input>
