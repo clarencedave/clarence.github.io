@@ -9,7 +9,7 @@ const formPage = () => (
      <input type="hidden" name="contact" value="contact" />  
      
 
-     
+      
      <label for="Firstname">First Name:</label>
       <input id="Firstname" name="Firstname" placeholder="First Name" type = "text" ></input>
     
@@ -38,7 +38,7 @@ const formPage = () => (
 
       <div data-netlify-recaptcha></div>
 
-   <button type ="submit" >Send</button>
+   <button type ="submit">Send</button>
    
   
     </form>

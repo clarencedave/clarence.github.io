@@ -13,7 +13,7 @@ const homePage = () => (
             <div class="hero-image">
               <div class="hero-text">
               <img src= {logo} alt="Angel"/>
-              <p>A non-profit corporation. Sparking the flame of angel investing in the Northwest</p>
+              <h1>A non-profit corporation. Sparking the flame of angel investing in the Northwest</h1>
               <br/>
               <br/>
               

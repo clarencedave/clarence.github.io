@@ -3,6 +3,7 @@ html {
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
 }
+
 body {
  
   background-position: center;
@@ -161,6 +162,9 @@ a:hover
   color: tomato;
 }
 
+
+
+
 #menuToggle
 {
   display: block;
@@ -194,6 +198,7 @@ a:hover
 /*
  * Just a quick hamburger
  */
+ 
 #menuToggle span
 {
   display: block;
@@ -273,12 +278,13 @@ a:hover
   transform: translate(-100%, 0);
   
   transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
+  
 }
 
 #menu li
 {
   padding: 10px 0;
-  font-size: 22px;
+  font-size: 25px;
 }
 
 /*
@@ -288,12 +294,6 @@ a:hover
 {
   transform: none;
 }
-
-
-
-
-
-
 
 
 
