@@ -7,9 +7,7 @@ const formPage = () => (
 
      <form name = "contact" method = "post" netlify = "true">
      <input type="hidden" name="contact" value="contact" />  
-     <p class="hidden">
-    <label>Don’t fill this out if you're human: <input name="bot-field" /></label>
-    </p>
+     
 
      
      <label for="Firstname">First Name:</label>
