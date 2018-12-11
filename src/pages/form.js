@@ -5,8 +5,8 @@ import Layout from '../components/layout'
 const formPage = () => (
     <Layout>
 
-     <form name = "contact" method = "post" netlify = "true">
-       
+     <form name = "contact" method = "post" data-netlify = "true">
+     <input type="hidden" name="contact" value="contact" />  
      
 
      
