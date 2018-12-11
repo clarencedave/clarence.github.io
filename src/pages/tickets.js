@@ -7,7 +7,7 @@ const TicketsPage = () => (
   <Layout>
      
       <form name = "tickets" method = "post" netlify = "true">
-     <input type="hidden" name="tickets" value="contact" />  
+     <input type="hidden" name="tickets" value="tickets" />  
      
      <label for="NameonCard"> Name on Card:</label>
     <input id="NameonCard" name="NameonCard" placeholder="Your Name Here" type = "text" ></input>
@@ -59,7 +59,7 @@ const TicketsPage = () => (
 
       <div data-netlify-recaptcha></div>
 
-   <button type ="submit">Send</button>
+   <button class = "send" type ="submit">Send</button>
    
    </form>
   
