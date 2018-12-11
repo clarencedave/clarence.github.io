@@ -5,7 +5,7 @@ import Layout from '../components/layout'
 const formPage = () => (
     <Layout>
 
-     <form name = "contact" method = "post" data-netlify = "true">
+     <form name = "contact" method = "post" netlify = "true">
      <input type="hidden" name="contact" value="contact" />  
      
 
@@ -36,7 +36,7 @@ const formPage = () => (
       <label for="message">Message:</label>
       <textarea id="message" name="message" placeholder="Write something.." type = "text" ></textarea>
 
-     
+      <div data-netlify-recaptcha></div>
 
    <button type ="submit" >Send</button>
    
