@@ -29,11 +29,15 @@ const Header = ({ siteTitle }) => (
    <a   href="home" >
    <img src= {logo} alt="Angel"/>
       </a>
-       <a href="/"><li> Home </li></a> 
+       <a href="/"><li> Blog </li></a> 
        <a href="about"><li>About</li> </a> 
        <a href="#resource"> <li>Resources</li> </a> 
        <a href="contacts"><li>Leadership</li></a>
        <a href="form"><li>Contact Us</li></a>
+       <a href="portfolio"><li>Events</li></a>
+       <a href="#Entrepreneurs"><li>Entrepreneurs</li></a>
+       <a href="#Sponsors"><li>Sponsors</li></a>
+       <a href="#Conference"><li>Conference</li></a>
    </ul>
  </div>
 </nav>

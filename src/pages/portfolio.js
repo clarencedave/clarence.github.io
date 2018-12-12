@@ -2,6 +2,74 @@ import React from 'react'
 import Layout from '../components/layout'
 import pic from '../images/nature.jpeg'
 import img from '../images/Lighthouse.jpg'
+import sac from '../images/SaC.jpg'
+import seattle from '../images/seattle.jpg'
+import {Link} from 'gatsby'
+
+
+
+
+
+var countDownDate = new Date("Feb 28, 2019 10:00:00").getTime();
+
+// Update the count down every 1 second
+var x = setInterval(function() {
+
+  // Get todays date and time
+  var now = new Date().getTime();
+    
+  // Find the distance between now and the count down date
+  var distance = countDownDate - now;
+    
+  // Time calculations for days, hours, minutes and seconds
+  var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+    
+  // Output the result in an element with id="demo"
+  document.getElementById("demo").innerHTML = days + " Days " + hours + " Hours "
+  + minutes + " Minutes " + seconds + " Seconds ";
+    
+  // If the count down is over, write some text 
+  if (distance < 0) {
+    clearInterval(x);
+    document.getElementById("demo").innerHTML = "EXPIRED";
+  }
+
+
+}, 1000);
+
+
+var countDownDateMay = new Date("May 15, 2019 1:00:00").getTime();
+
+// Update the count down every 1 second
+var y = setInterval(function() {
+
+  // Get todays date and time
+  var now = new Date().getTime();
+    
+  // Find the distance between now and the count down date
+  var distance = countDownDateMay - now;
+    
+  // Time calculations for days, hours, minutes and seconds
+  var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+    
+  // Output the result in an element with id="demo"
+  document.getElementById("may").innerHTML = days + " Days " + hours + " Hours "
+  + minutes + " Minutes " + seconds + " Seconds ";
+    
+  // If the count down is over, write some text 
+  if (distance < 0) {
+    clearInterval(y);
+    document.getElementById("may").innerHTML = "EXPIRED";
+  }
+
+
+}, 1000);
 
 
 
@@ -15,11 +83,14 @@ const PortfolioPage = () => (
             <a class = "thumnail" href= {pic}>
             <img class = "pic" src = {pic} alt = "nature"  width = "100%" />
             </a>
-            <h2>Title</h2>
+            <h2>Winner: Energy Storage Systems $135,000</h2>
+            <h3>SAC VI - November 2015 </h3>
             <p>
-            Lorem ipsum dolor sit amet, tempor prodesset eos no. Temporibus necessitatibus sea ei, at tantas oporteat nam. Lorem ipsum dolor sit amet, tempor prodesset eos no.
+            Energy Storage Systems is a Portland company providing onsite energy storage for commercial clients utilizing an All-Iron Flow Battery. 
             </p>
-
+            <b>Finalists</b>
+            <p>The other five finalists who pitched were PotaVida providing safer water with certainty using a UV water purification bag; theHUBEdu collecting and organizing educational resources into your own personal digital library; Third and Loom a custom, luxury couture  e-commerce platform; NorthAmerica Talk reaching 200,000+ neighbors weekly with an award winning social community network and Connect2Classes providing an online marketplace for students to discover continuing education classes
+            </p>
             </div>
                 </div>
                    
@@ -29,10 +100,14 @@ const PortfolioPage = () => (
             <a class = "thumnail" href= {img}>
             <img class = "img" src = {img} alt = "House" width = "100%"/>
             </a>
-            <h2>Title</h2>
+            <h2>Winner: Discuss.io  $155,000</h2>
             <p>
-            Lorem ipsum dolor sit amet, tempor prodesset eos no. Temporibus necessitatibus sea ei, at tantas oporteat nam. Lorem ipsum dolor sit amet, tempor prodesset eos no.
-            </p>
+           Second Investment: SocialGlympz $45,000
+A Seattle Startup that understands that visuals are the new language of consumers. They are bringing the expertise to the CRM and marketing automation space allowing companies to gather insights, solicit content and run interactive campaigns
+
+Finalists
+The other four finalists who pitched were Zealyst, creating specialized games to build a stronger employee community; Real Estate Game Works providing gamification of the continuing education experience for real estate agents; Grow Plastics providing a breakthrough in plastics technology focusing first on plastic cups that are better for the environment and Meshfire
+ </p>
 
             </div>
                 </div>
@@ -50,28 +125,35 @@ const PortfolioPage = () => (
                 <div class = "columnname">
         <div class = "contentname">
 
-            <img src = {img} alt = "img"  width = "100%" />
-            <h2>Title</h2>
+            <img src = {seattle} alt = "img"  width = "100%" />
+            <Link to = " "><h2>SAC XV May 2019</h2></Link>
             <p>
-            Lorem ipsum dolor sit amet, tempor prodesset eos no. Temporibus necessitatibus sea ei, at tantas oporteat nam. Lorem ipsum dolor sit amet, tempor prodesset eos no.
+            DATE AND TIME
+            Wed, May 15, 2019
             </p>
+            <p class = "time" id="may"></p>
+            <p> 1:00 PM – 6:00 PM PDT</p>
 
             </div>
                 </div>      
-                     </div>
+                    
    
 
  <div class = "contentname">
 
-<img src = {pic} alt = "sac" width = "100%"  />
-<h2>Title</h2>
-<p>
-Lorem ipsum dolor sit amet, tempor prodesset eos no. Temporibus necessitatibus sea ei, at tantas oporteat nam. Lorem ipsum dolor sit amet, tempor prodesset eos no.
-</p>
+<img src = {sac} alt = "sac" width = "100%"  />
 
+<h2>Seattle Angel Conference XV Company Applications</h2>
+<p>
+DATE AND TIME
+Thu, February 28, 2019
+<p class = "time" id="demo"></p>
+</p>
+<p>10:00 PM – 10:00 PM PST</p>
 </div>
        
 
+   </div>
    </div>
   </Layout>
 )
