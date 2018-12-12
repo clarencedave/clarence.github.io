@@ -1,22 +1,12 @@
 import React from 'react'
 import Layout from '../components/layout'
 
-var myVar
-
-
-  myVar = setTimeout(showPage, 3000);
-
-
-function showPage() {
-  document.getElementById("loader").style.display = "none";
-  document.getElementById("myDiv").style.display = "block";
-}
 
 const formPage = () => (
     <Layout>
-<div id="loader"></div>
 
-<div  id="myDiv" class="animate-bottom">
+
+
      <form name = "contact" method = "post" netlify = "true">
      <input type="hidden" name="contact" value="contact" />  
      
@@ -54,7 +44,7 @@ const formPage = () => (
    
   
     </form>
-    </div>
+    
 
     </Layout>
   )
