@@ -2,7 +2,7 @@ import React from 'react'
 import Layout from '../components/layout'
 import pic from '../images/nature.jpeg'
 import img from '../images/Lighthouse.jpg'
-import sac from '../images/SaC.jpg'
+import sac from '../images/SAC1.jpg'
 import seattle from '../images/seattle.jpg'
 import {Link} from 'gatsby'
 
