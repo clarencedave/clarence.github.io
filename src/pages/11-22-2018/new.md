@@ -3,6 +3,7 @@ path: "/post4"
 title: "My post"
 description: This post is related to the gatsbyjs
 date: '2018-12-22'
+image: nature.jpeg
 ---
 
 Lorem Ipsum is simply dummy text of the printing and typesetting industry.

@@ -15,7 +15,10 @@ body {
 }
 
 
-
+.all {
+  max-width: 1000px;
+  margin: auto;
+}
 
 
 input[type=text], select, textarea {
@@ -294,6 +297,59 @@ a:hover
 {
   transform: none;
 }
+
+
+
+.contentname {
+  background-color: white;
+  padding: 10px;
+}
+
+.rowname:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.columnname {
+  float: left;
+  width: 25%;
+}
+
+.rowname,
+.rowname > .columnname {
+  padding: 8px;
+}
+
+.rowname {
+  margin: 8px -16px;
+}
+
+.all {
+  max-width: 1000px;
+  margin: auto;
+}
+
+@media screen and (max-width: 900px) {
+  .columnname {
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .columnname {
+    width: 100%;
+  }
+}
+
+
+
+
+
+
+
+
+
 
 
 

@@ -24,7 +24,6 @@ const Header = ({ siteTitle }) => (
    <span></span>
    <span></span>
    
-   
   
    <ul id="menu">
    <a   href="home" >
