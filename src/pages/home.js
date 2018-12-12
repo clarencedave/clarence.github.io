@@ -27,7 +27,7 @@ const homePage = () => (
               
               <h1>Find Us On:</h1>
              <a  href= "https://web.facebook.com/SeattleAngelConference?_rdc=1&_rdr"> <img src= {facebook} alt="fb" class = "fb"/></a>
-               <a  href= "https://www.linkedin.com/feed/"> <img src= {linkedin} alt="in"class = "in"/></a>
+               <a  href= " https://www.linkedin.com/company/seattle-angel-conference/about/"> <img src= {linkedin} alt="in"class = "in"/></a>
                  <a  href= "https://twitter.com/@nwangelconf"> <img src= {twit} alt="twit"class = "twit"/></a>
                    <a  href= "https://www.google.com/intl/fil/gmail/about/#"> <img src= {mail} alt="mail"class = "mail"/></a>
 
