@@ -10,6 +10,68 @@ import {Link} from 'gatsby'
 
 
 
+var countDownDate = new Date("Feb 28, 2019 10:00:00").getTime();
+
+
+var x = setInterval(function() {
+
+  
+  var now = new Date().getTime();
+    
+  
+  var distance = countDownDate - now;
+    
+  
+  var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+    
+  
+  document.getElementById("demo").innerHTML = days + " Days " + hours + " Hours "
+  + minutes + " Minutes " + seconds + " Seconds ";
+    
+   
+  if (distance < 0) {
+    clearInterval(x);
+    document.getElementById("demo").innerHTML = "EXPIRED";
+  }
+
+
+}, 1000);
+
+
+var countDownDateMay = new Date("May 15, 2019 1:00:00").getTime();
+
+
+var y = setInterval(function() {
+
+  
+  var now = new Date().getTime();
+    
+  
+  var distance = countDownDateMay - now;
+    
+  
+  var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+    
+  
+  document.getElementById("may").innerHTML = days + " Days " + hours + " Hours "
+  + minutes + " Minutes " + seconds + " Seconds ";
+    
+  
+  if (distance < 0) {
+    clearInterval(y);
+    document.getElementById("may").innerHTML = "EXPIRED";
+  }
+
+
+}, 1000);
+
+
 
 const PortfolioPage = () => (
   <Layout>
@@ -69,7 +131,7 @@ The other four finalists who pitched were Zealyst, creating specialized games to
             DATE AND TIME
             Wed, May 15, 2019
             </p>
-            
+            <p class = "time" id="may"></p>
             <p> 1:00 PM – 6:00 PM PDT</p>
 
             </div>
@@ -85,7 +147,7 @@ The other four finalists who pitched were Zealyst, creating specialized games to
 <p>
 DATE AND TIME
 Thu, February 28, 2019
-
+<p class = "time" id="demo"></p>
 </p>
 <p>10:00 PM – 10:00 PM PST</p>
 </div>
