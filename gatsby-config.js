@@ -1,11 +1,7 @@
 module.exports = {
   siteMetadata: {
-    title: 'Seattle Angel',
-    titleTemplate: "Investor Led Conference for Seattle Area Entrepreneurs",
-    description: "Sparking the Flame of Angel Investing in The Northwest",
-    url: "https://goofy-mccarthy-935cfb.netlify.com/home",
-    image: "/images/seattle-angel-logo.png",
-    twitterUsername: "@nwangelconf",
+    title: '',
+    
   },
   plugins: [
     'gatsby-plugin-react-helmet',
