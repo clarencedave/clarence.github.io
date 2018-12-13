@@ -133,7 +133,7 @@ The other four finalists who pitched were Zealyst, creating specialized games to
             </p>
             <p class = "time" id="may"></p>
             <p> 1:00 PM – 6:00 PM PDT</p>
-
+  
             </div>
                 </div>      
                     
@@ -150,6 +150,7 @@ Thu, February 28, 2019
 <p class = "time" id="demo"></p>
 </p>
 <p>10:00 PM – 10:00 PM PST</p>
+
 </div>
        
 

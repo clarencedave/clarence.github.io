@@ -37,7 +37,7 @@ const Header = ({ siteTitle }) => (
        <a href="portfolio"><li>Events</li></a>
        <a href="#Entrepreneurs"><li>Entrepreneurs</li></a>
        <a href="#Sponsors"><li>Sponsors</li></a>
-       <a href="#Conference"><li>Conference</li></a>
+       <a href="conference"><li>Conference</li></a>
    </ul>
  </div>
 </nav>

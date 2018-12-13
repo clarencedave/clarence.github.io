@@ -6,8 +6,10 @@ import Layout from '../components/layout'
 const TicketsPage = () => (
   <Layout>
      
+
       <form name = "tickets" method = "post" netlify = "true">
      <input type="hidden" name="tickets" value="tickets" />  
+     
      
      <label for="NameonCard"> Name on Card:</label>
     <input id="NameonCard" name="NameonCard" placeholder="Your Name Here" type = "text" ></input>
