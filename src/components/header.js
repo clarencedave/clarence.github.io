@@ -6,7 +6,7 @@ const Header = ({ siteTitle }) => (
   
   <div
     style={{
-      
+      background:'gray',
       marginBottom: '0',
     }}
   >
@@ -31,16 +31,16 @@ const Header = ({ siteTitle }) => (
       </a>
        <a href="/"><li> Blog </li></a> 
        <a href="about"><li>About</li> </a> 
-       <a href="#resource"> <li>Resources</li> </a> 
+       <a href="resource"> <li>Resources</li> </a> 
        <a href="contacts"><li>Leadership</li></a>
        <a href="form"><li>Contact Us</li></a>
        <a href="portfolio"><li>Events</li></a>
-       <a href="#Entrepreneurs"><li>Entrepreneurs</li></a>
-       <a href="#Sponsors"><li>Sponsors</li></a>
+       <a href="entrepreneurs"><li>Entrepreneurs</li></a>
+       <a href="sponsor"><li>Sponsors</li></a>
        <a href="conference"><li>Conference</li></a>
    </ul>
- </div>
-</nav>
+   </div>
+   </nav>
  
   
          </div>
