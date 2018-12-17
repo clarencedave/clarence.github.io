@@ -75,6 +75,7 @@ var y = setInterval(function() {
 
 const PortfolioPage = () => (
   <Layout>
+    
     <div class = "all">
 
     <div class = "rowname">
