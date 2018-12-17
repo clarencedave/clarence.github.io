@@ -10,6 +10,15 @@ import sponsor from '../images/sponsor.png'
 import about from '../images/about.png'
 import mail from '../images/mail.png'
 import src from '../images/source.png'
+import facebook from '../images/facebook.png'
+import linkedin from '../images/linkedin.png'
+import twit from '../images/twit.png'
+import meetup from '../images/meetup.png'
+
+
+
+
+
 const Header = ({ siteTitle }) => (
   
   <div
@@ -53,6 +62,37 @@ const Header = ({ siteTitle }) => (
  
   
          </div>
+
+         <div class="footer">
+  <div id="button"></div>
+<div id="container">
+<div id="cont">
+<div class="footer_center">
+	   <h3>
+       Find us on :
+       <br/>
+      
+       <a  href= "https://web.facebook.com/SeattleAngelConference?_rdc=1&_rdr"> <img src= {facebook} alt="fb" class = "fb"/></a>
+       <a  href= " https://www.linkedin.com/company/seattle-angel-conference/about/"> <img src= {linkedin} alt="in"class = "in"/></a>
+       <a  href= "https://twitter.com/@nwangelconf"> <img src= {twit} alt="twit"class = "twit"/></a>
+       <a  href= "https://www.meetup.com/Seattle-Angel/"> <img src= {meetup} alt="meetup"class = "mail"/></a>
+
+       <br/>
+    
+       Copyright © 2013 Seattle Angel. Awesome Inc. 
+      </h3>
+     
+</div>
+</div>
+</div>
+</div>
+
+
+
+
+
+
+
 
 
 

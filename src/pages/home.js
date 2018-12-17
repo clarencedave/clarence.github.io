@@ -3,14 +3,17 @@ import React from 'react'
 import facebook from '../images/facebook.png'
 import linkedin from '../images/linkedin.png'
 import twit from '../images/twit.png'
-import mail from '../images/gmail.png'
+import meetup from '../images/meetup.png'
 import Layout from '../components/layout'
 import logo from '../images/seattle-angel-logo.png'
 
 
+
+
+
 const homePage = () => (
   <Layout>
-
+    
       
 
 
@@ -29,7 +32,7 @@ const homePage = () => (
              <a  href= "https://web.facebook.com/SeattleAngelConference?_rdc=1&_rdr"> <img src= {facebook} alt="fb" class = "fb"/></a>
                <a  href= " https://www.linkedin.com/company/seattle-angel-conference/about/"> <img src= {linkedin} alt="in"class = "in"/></a>
                  <a  href= "https://twitter.com/@nwangelconf"> <img src= {twit} alt="twit"class = "twit"/></a>
-                   <a  href= "https://www.google.com/intl/fil/gmail/about/#"> <img src= {mail} alt="mail"class = "mail"/></a>
+                   <a  href= "https://www.meetup.com/Seattle-Angel/"> <img src= {meetup} alt="meetup"class = "mail"/></a>
 
                 <br/>
                    <br/>
@@ -42,10 +45,7 @@ const homePage = () => (
           
 
 
-          
             
-                       
-
           
 
 </Layout>
