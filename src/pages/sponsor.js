@@ -7,7 +7,8 @@ import tags from "../images/tags.png"
 
 const SponsorPage = () => (
   <Layout>
-   
+   <br/> 
+      <br/>
       <h1>Sponsors</h1>
       <p>Thank you to these remarkable supporters of the Seattle Angel Conference.</p>
 

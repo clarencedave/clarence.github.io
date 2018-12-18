@@ -2,10 +2,22 @@ import React from 'react'
 import Layout from '../components/layout'
 import video from '../images/Seattle Angel Conference Overview.mp4'
 import {Link} from 'gatsby'
+import { TwitterTimelineEmbed } from 'react-twitter-embed';
 
 const conferencePage = () => (
   <Layout>
-      
+      <div className=" Position">
+<div className="inside">
+<TwitterTimelineEmbed sourceType="profile" userId={2829884545} options={{height: 400}} />
+<br/>
+<TwitterTimelineEmbed sourceType="profile" userId={397377701} options={{height: 400}} />
+</div>
+</div>
+
+
+
+      <div class = "seattle">
+
       <h1>What is the Seattle Angel Conference?</h1>
         <p>The Seattle Angel Conference is a recurring Seattle Angel-driven event where the investors create an LLC, engage in due diligence of the applying startup companies, and ultimately pool funds to invest in one of the presenting finalists. The Seattle Angel Conference is the primary method Seattle Angel uses to find and fund new startups. The Seattle Angel Conference is open to any member of the community interested in learning more about both starting and investing in a new business and to hear the investment pitches from the finalists.</p>
 
@@ -93,8 +105,8 @@ Fill out everything else, and then keep refining.  Our angel investors will use 
 </div>
         
   
-  
-  
+  </div>
+
   
   
   

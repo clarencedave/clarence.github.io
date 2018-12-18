@@ -11,7 +11,7 @@ body {
   background-size: cover;
   position: relative;
   background-image: url("../images/background.png");
-  
+  overflow-x: hidden;
 }
 
 
@@ -92,6 +92,7 @@ img {
 .container {
   color: white;
   padding: 0 16px;
+  
 }
 
 .container::after, .row::after {
@@ -198,9 +199,7 @@ a:hover
   -webkit-touch-callout: none;
 }
 
-/*
- * Just a quick hamburger
- */
+
  
 #menuToggle span
 {
@@ -269,7 +268,7 @@ a:hover
   position: absolute;
   width: 300px;
   margin: -100px 0 0 -60px;
-  padding: 10px;
+  padding: 30px;
   padding-top: 125px;
   
   background: #ededed;
@@ -330,7 +329,7 @@ a:hover
  
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 600x) {
   .columnname {
     width: 50%;
   }
@@ -349,51 +348,7 @@ a:hover
 
 
 
-#loader {
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  z-index: 1;
-  width: 150px;
-  height: 150px;
-  margin: -75px 0 0 -75px;
-  border: 16px solid #f3f3f3;
-  border-radius: 50%;
-  border-top: 16px solid #3498db;
-  width: 120px;
-  height: 120px;
-  -webkit-animation: spin 2s linear infinite;
-  animation: spin 2s linear infinite;
-}
 
-@-webkit-keyframes spin {
-  0% { -webkit-transform: rotate(0deg); }
-  100% { -webkit-transform: rotate(360deg); }
-}
-
-@keyframes spin {
-  0% { transform: rotate(0deg); }
-  100% { transform: rotate(360deg); }
-}
-
-/* Add animation to "page content" */
-.animate-bottom {
-  position: relative;
-  -webkit-animation-name: animatebottom;
-  -webkit-animation-duration: 1s;
-  animation-name: animatebottom;
-  animation-duration: 1s
-}
-
-@-webkit-keyframes animatebottom {
-  from { bottom:-100px; opacity:0 } 
-  to { bottom:0px; opacity:1 }
-}
-
-@keyframes animatebottom { 
-  from{ bottom:-100px; opacity:0 } 
-  to{ bottom:0; opacity:1 }
-}
 
 #myDiv {
   display: none;
@@ -917,7 +872,7 @@ h3 {padding: 0; margin: 0;}
 
 
 
-@media all and (max-width: 641px) {
+@media all and (max-width: 600px) {
 
     .body {
       width: 100%;
@@ -946,7 +901,7 @@ h3 {padding: 0; margin: 0;}
 }
 
 
-@media (max-width: 767px) {
+@media (max-width: 600px) {
   .content-slider {
     width: 100%;
     height: 360px;
@@ -1071,22 +1026,24 @@ h3 {padding: 0; margin: 0;}
 }
 
 
+.Position {
+  
+  position: absolute;
+  top: 80px;
+  right: 0;
+  width: 200px;
+  height: 100px;
+  margin: 100px 0 0 300px;
+  
+  
+}
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.but {
+  background-color: white;
+  color: black;
+  border: 2px solid #555555;
+}
 
 
 
@@ -1727,7 +1684,7 @@ pre tt:before,
 pre tt:after {
   content: "";
 }
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 600px) {
   html {
     font-size: 100%;
   }

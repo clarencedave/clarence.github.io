@@ -5,6 +5,8 @@ import Layout from '../components/layout'
 
 const ResourcesPage = () => (
   <Layout>
+    <br/> 
+      <br/>
       <h1>Resources</h1>
 
       <p>Our newsletter (sign up here) is the best place to stay up to date with the latest happenings around Seattle for angel investors and entrepreneurs looking to raise capital. There are lots of other great resources around Seattle such as Startup Seattle (yes even the local government is interested in seeing startups succeed). Here are some other great resources in Seattle:</p>

@@ -7,6 +7,9 @@ import yolo from '../images/Josh.jpg'
 import solo from '../images/Brad.jpg'
 const ContactPage = () => (
   <Layout>
+      <br/> 
+      <br/>
+
 <div class="row">
     <div class="column">
         <div class="container">

@@ -1,9 +1,6 @@
 import React from 'react'
 //import { Link } from 'gatsby'
-import facebook from '../images/facebook.png'
-import linkedin from '../images/linkedin.png'
-import twit from '../images/twit.png'
-import meetup from '../images/meetup.png'
+
 import Layout from '../components/layout'
 import logo from '../images/seattle-angel-logo.png'
 
@@ -16,28 +13,16 @@ const homePage = () => (
     
       
 
-
-
-
           <div class = "media"> 
             <div class="hero-image">
               <div class="hero-text">
+              <br/>
+              <br/>
               <img src= {logo} alt="Angel"/>
               <h1>A non-profit corporation. Sparking the flame of angel investing in the Northwest</h1>
-              
               <br/>
-              <br/>
-              
-              <h1>Find Us On:</h1>
-             <a  href= "https://web.facebook.com/SeattleAngelConference?_rdc=1&_rdr"> <img src= {facebook} alt="fb" class = "fb"/></a>
-               <a  href= " https://www.linkedin.com/company/seattle-angel-conference/about/"> <img src= {linkedin} alt="in"class = "in"/></a>
-                 <a  href= "https://twitter.com/@nwangelconf"> <img src= {twit} alt="twit"class = "twit"/></a>
-                   <a  href= "https://www.meetup.com/Seattle-Angel/"> <img src= {meetup} alt="meetup"class = "mail"/></a>
-
-                <br/>
-                   <br/>
-                   
-                      <button class = "but" >< a href = "/"> Learn More! </a></button>
+              <br/>                 
+                      <button class = "but" >< a href = "conference"> Learn More! </a></button>
                          </div>
                             </div>
                             

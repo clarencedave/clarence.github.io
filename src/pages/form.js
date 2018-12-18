@@ -4,7 +4,8 @@ import Layout from '../components/layout'
 
 const formPage = () => (
     <Layout>
-
+<br/> 
+      <br/>
 
 
      <form name = "contact" method = "post" netlify = "true">

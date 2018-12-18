@@ -5,7 +5,8 @@ import Layout from '../components/layout'
 
 const entrepreneursPage = () => (
   <Layout>
-   
+   <br/> 
+      <br/>
    <h1>Entrepreneurs</h1>
 
     <h3>Connect with Seattle Investors</h3>
