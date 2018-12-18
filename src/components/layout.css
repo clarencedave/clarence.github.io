@@ -92,7 +92,6 @@ img {
 .container {
   color: white;
   padding: 0 16px;
-  
 }
 
 .container::after, .row::after {
@@ -163,7 +162,7 @@ a
 
 a:hover
 {
-  color: tomato;
+  color: green;
 }
 
 
@@ -193,9 +192,8 @@ a:hover
   
   cursor: pointer;
   
-  opacity: 0; /* hide this */
-  z-index: 2; /* and place it over the hamburger */
-  
+  opacity: 0; 
+  z-index: 2; 
   -webkit-touch-callout: none;
 }
 
@@ -209,7 +207,7 @@ a:hover
   margin-bottom: 5px;
   position: relative;
   
-  background: black;
+  background: white;
   border-radius: 3px;
   
   z-index: 1;
@@ -242,40 +240,32 @@ a:hover
   background: #232323;
 }
 
-/*
- * But let's hide the middle one.
- */
+
 #menuToggle input:checked ~ span:nth-last-child(3)
 {
   opacity: 0;
   transform: rotate(0deg) scale(0.2, 0.2);
 }
 
-/*
- * Ohyeah and the last one should go the other direction
- */
+
 #menuToggle input:checked ~ span:nth-last-child(2)
 {
   transform: rotate(-45deg) translate(0, -1px);
 }
 
-/*
- * Make this absolute positioned
- * at the top left of the screen
- */
+
 #menu
 {
   position: absolute;
   width: 300px;
-  margin: -100px 0 0 -60px;
+  margin: -100px 0 0 -70px;
   padding: 30px;
   padding-top: 125px;
   
   background: #ededed;
   list-style-type: none;
   -webkit-font-smoothing: antialiased;
-  /* to stop flickering of text in safari */
-  
+   
   transform-origin: 0% 0%;
   transform: translate(-100%, 0);
   
@@ -289,9 +279,7 @@ a:hover
   font-size: 25px;
 }
 
-/*
- * And let's slide it in from the left
- */
+
 #menuToggle input:checked ~ ul
 {
   transform: none;
@@ -1034,9 +1022,12 @@ h3 {padding: 0; margin: 0;}
   width: 200px;
   height: 100px;
   margin: 100px 0 0 300px;
-  
+  padding: 1rem;
+
   
 }
+
+
 
 
 .but {
@@ -1044,6 +1035,7 @@ h3 {padding: 0; margin: 0;}
   color: black;
   border: 2px solid #555555;
 }
+
 
 
 

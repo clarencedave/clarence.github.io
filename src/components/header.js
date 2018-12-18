@@ -24,7 +24,9 @@ const Header = ({ siteTitle }) => (
   <div
     style={{
       background:'gray',
-      marginBottom: '0',
+      marginBottom: '1.45rem 1.0875rem',
+      padding: '1.45rem 1.0875rem',
+      
     }}
   >
   <div class="header">
