@@ -18,7 +18,7 @@ const homePage = () => (
               <div class="hero-text">
               <br/>
               <br/>
-              <img src= {logo} alt="Angel"/>
+              <img class = "angel" src= {logo} alt="Angel"/>
               <h1>A non-profit corporation. Sparking the flame of angel investing in the Northwest</h1>
               <br/>
               <br/>                 

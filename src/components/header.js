@@ -23,12 +23,15 @@ const Header = ({ siteTitle }) => (
   
   <div
     style={{
-      background:'gray',
+      background:'#3A3A3A',
       marginBottom: '1.45rem 1.0875rem',
       padding: '1.45rem 1.0875rem',
       
-    }}
-  >
+    }}>
+    
+    
+
+
   <div class="header">
   
   
@@ -45,7 +48,7 @@ const Header = ({ siteTitle }) => (
    
   
    <ul id="menu">
-   <a   href="home" >
+   <a    href="home" >
    <img src= {logo} alt="Angel"/>
       </a>
        <a href="/"><li> <img src = {blog} alt = "Blog"/> Blog </li></a> 
