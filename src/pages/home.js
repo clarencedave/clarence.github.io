@@ -19,7 +19,7 @@ const homePage = () => (
               <br/>
               <br/>
               <img class = "angel" src= {logo} alt="Angel"/>
-              <h1>A non-profit corporation. Sparking the flame of angel investing in the Northwest</h1>
+              <h3>Investor Led Conference for Seattle Area Entrepreneurs - Sparking the Flame of Angel Investing in The Northwest.</h3>
               <br/>
               <br/>                 
                       <button class = "but" >< a href = "conference"> Learn More! </a></button>
@@ -28,8 +28,7 @@ const homePage = () => (
                             
                                </div>
           
-
-
+                             
             
           
 

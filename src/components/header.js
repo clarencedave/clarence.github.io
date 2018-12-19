@@ -60,7 +60,7 @@ const Header = ({ siteTitle }) => (
        <a href="entrepreneurs"><li><img src = {entrepreneurs} alt = "Entrepreneurs"/> Entrepreneurs</li></a>
        <a href="sponsor"><li><img src = {sponsor} alt = "Sponsors"/> Sponsors</li></a>
        <a href="conference"><li><img src = {conference} alt = "Conference"/> Conference</li></a>
-       <a href="#conference"><li><img class = "logo" src = {logo} alt = "Angel"/> Seattle Angel</li></a>
+       <a href="seattleangel"><li><img class = "logo" src = {logo} alt = "Angel"/> Seattle Angel</li></a>
        
    </ul>
    </div>
@@ -85,7 +85,7 @@ const Header = ({ siteTitle }) => (
 
        <br/>
     
-       Copyright © 2013 Seattle Angel. Awesome Inc. 
+       Copyright © 2012 Seattle Angel Sechrest@SeattleAngelConference.com. Awesome Inc. 
       </h3>
      
 </div>

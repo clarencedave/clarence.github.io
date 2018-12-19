@@ -3,12 +3,12 @@ import Layout from '../components/layout'
 
 
 
-const NotFoundPage = () => (
+const SeattlePage = () => (
   <Layout>
-
-      
+   
   
+
   </Layout>
 )
 
-export default NotFoundPage
+export default SeattlePage

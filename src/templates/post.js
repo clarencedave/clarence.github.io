@@ -14,6 +14,7 @@ function BlogPost(props) {
                 <Img fluid={post.frontmatter.image.childImageSharp.fluid} />
                <div dangerouslySetInnerHTML={{ __html: post.html }} />
           </div>
+          
       </Layout>
   )
 }

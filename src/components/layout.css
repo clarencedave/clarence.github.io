@@ -209,8 +209,9 @@ a
 
 a:hover
 {
-  color: gray;
+  color: darkblue;
 }
+
 
 
 
@@ -1087,11 +1088,23 @@ h3 {padding: 0; margin: 0;}
 }
 
 
+.insidehead {
+  display:block;
+  width:100%;
+  height:100vh;
+  text-align: center;
+}
 
 
-
-
-
+.navigation a {
+  float: right;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
 
 
 
