@@ -21,13 +21,7 @@ import meetup from '../images/meetup.png'
 
 const Header = ({ siteTitle }) => (
   
-  <div
-    style={{
-      background:'#3A3A3A',
-      marginBottom: '1.45rem 1.0875rem',
-      padding: '1.45rem 1.0875rem',
-      
-    }}>
+  <div>
     
     
 
