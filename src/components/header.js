@@ -7,9 +7,7 @@ import event from '../images/event.png'
 import entrepreneurs from '../images/entrepreneurs.png'
 import conference from '../images/conference.png'
 import sponsor from '../images/sponsor.png'
-import about from '../images/about.png'
 import mail from '../images/mail.png'
-import src from '../images/source.png'
 import facebook from '../images/facebook.png'
 import linkedin from '../images/linkedin.png'
 import twit from '../images/twit.png'
@@ -46,9 +44,7 @@ const Header = ({ siteTitle }) => (
    <img src= {logo} alt="Angel"/>
       </a>
        <a href="/"><li> <img src = {blog} alt = "Blog"/> Blog </li></a> 
-       <a href="about"><li><img src = {about} alt = "About"/> About</li> </a> 
-       <a href="resource"> <li> <img src = {src} alt = "Resources"/> Resources</li> </a> 
-       <a href="contacts"><li><img src = {leader} alt = "Leadership"/> Leadership</li></a>
+       <a href="contacts"><li><img src = {leader} alt = "Leadership"/> Team</li></a>
        <a href="form"><li><img src = {mail} alt = "Email"/> Contact Us</li></a>
        <a href="portfolio"><li><img src = {event} alt = "Event"/> Events</li></a>
        <a href="entrepreneurs"><li><img src = {entrepreneurs} alt = "Entrepreneurs"/> Entrepreneurs</li></a>

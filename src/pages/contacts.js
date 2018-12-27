@@ -9,6 +9,14 @@ const ContactPage = () => (
   <Layout>
       <br/> 
       <br/>
+      <h1>Team</h1>
+      <br/> 
+      <br/>
+<p>The Seattle Angel Conference is a team effort of many volunteers who are interested in educating new Angel Investors an thereby expanding the opportunities for startups in the Puget Sound and Greater Seattle  community. If you are interested in contributing to project as a volunteer or as an organizer, please drop us a note and let us know what you would like to work on. </p>
+        <br/> 
+      <br/>
+
+
 
 <div class="row">
     <div class="column">
