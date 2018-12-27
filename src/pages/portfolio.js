@@ -5,7 +5,6 @@ import seattle from '../images/seattle.jpg'
 import finalist from '../images/finalist.jpg'
 import discuss from '../images/discuss.png'
 import social from '../images/social.png'
-import book from '../images/book.jpg'
 import dailydollar from '../images/dailydollar.jpg'
 import dailydollarlogo from '../images/dailydollarlogo.jpeg'
 import stagingdesign from '../images/stagingdesign.png'
@@ -124,7 +123,7 @@ const PortfolioPage = () => (
             <div class = "columnname">
         <div class = "contentname">
 
-            <img src = {book} alt = "img"  width = "100%" />
+           
            <h2>SAC IV- Nov 2013</h2>
            <h1>Winner: Booktrope  $205,000</h1>
             <p>
