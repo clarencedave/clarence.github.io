@@ -40,16 +40,16 @@ const Header = ({ siteTitle }) => (
    
   
    <ul id="menu">
-   <a    href="home" >
+   <a  href="home" >
    <img src= {logo} alt="Angel"/>
       </a>
-       <a href="/"><li> <img src = {blog} alt = "Blog"/> Blog </li></a> 
-       <a href="contacts"><li><img src = {leader} alt = "Leadership"/> Team</li></a>
-       <a href="form"><li><img src = {mail} alt = "Email"/> Contact Us</li></a>
-       <a href="portfolio"><li><img src = {event} alt = "Event"/> Events</li></a>
-       <a href="entrepreneurs"><li><img src = {entrepreneurs} alt = "Entrepreneurs"/> Entrepreneurs</li></a>
-       <a href="sponsor"><li><img src = {sponsor} alt = "Sponsors"/> Sponsors</li></a>
-       <a href="conference"><li><img src = {conference} alt = "Conference"/> Conference</li></a>
+      <Link to="/"><li> <img src = {blog} alt = "Blog"/> Blog </li></Link>
+      <Link to="contacts"><li><img src = {leader} alt = "Leadership"/> Team</li></Link>
+      <Link to="form"><li><img src = {mail} alt = "Email"/> Contact Us</li></Link>
+      <Link to="portfolio"><li><img src = {event} alt = "Event"/> Events</li></Link>
+      <Link to="entreprenuers"><li><img src = {entrepreneurs} alt = "Entrepreneurs"/> Entrepreneurs</li></Link>
+      <Link to="sponsors"><li><img src = {sponsor} alt = "Sponsors"/> Sponsors</li></Link>
+      <Link to="conference"><li><img src = {conference} alt = "Conference"/> Conference</li></Link>
        <a href="https://seattle-angel.netlify.com"><li><img class = "logo" src = {logo} alt = "Angel"/> Seattle Angel</li></a>
        
    </ul>
