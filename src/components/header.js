@@ -47,7 +47,7 @@ const Header = ({ siteTitle }) => (
       <Link to="contacts"><li><img src = {leader} alt = "Leadership"/> Team</li></Link>
       <Link to="form"><li><img src = {mail} alt = "Email"/> Contact Us</li></Link>
       <Link to="portfolio"><li><img src = {event} alt = "Event"/> Events</li></Link>
-      <Link to="entreprenuers"><li><img src = {entrepreneurs} alt = "Entrepreneurs"/> Entrepreneurs</li></Link>
+      <Link to="entrepreneurs"><li><img src = {entrepreneurs} alt = "Entrepreneurs"/> Entrepreneurs</li></Link>
       <Link to="sponsor"><li><img src = {sponsor} alt = "Sponsors"/> Sponsors</li></Link>
       <Link to="conference"><li><img src = {conference} alt = "Conference"/> Conference</li></Link>
        <a href="https://seattle-angel.netlify.com"><li><img class = "logo" src = {logo} alt = "Angel"/> Seattle Angel</li></a>
