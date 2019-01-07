@@ -3,6 +3,7 @@ import Layout from '../components/layout'
 
 const AboutPage = () => (
   <Layout>
+    
    <h1><b>About us</b></h1>
    
    <h2>What is Seattle Angel?</h2>

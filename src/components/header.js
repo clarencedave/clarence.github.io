@@ -68,10 +68,10 @@ const Header = ({ siteTitle }) => (
        Find us on :
        <br/>
       
-       <a  href= "https://web.facebook.com/SeattleAngelConference?_rdc=1&_rdr"> <img src= {facebook} alt="fb" class = "fb"/></a>
-       <a  href= " https://www.linkedin.com/company/seattle-angel-conference/about/"> <img src= {linkedin} alt="in"class = "in"/></a>
-       <a  href= "https://twitter.com/@nwangelconf"> <img src= {twit} alt="twit"class = "twit"/></a>
-       <a  href= "https://www.meetup.com/Seattle-Angel/"> <img src= {meetup} alt="meetup"class = "mail"/></a>
+       <a  href= "https://web.facebook.com/SeattleAngelConference?_rdc=1&_rdr"> <img class = "fb" src= {facebook} alt="fb" /></a>
+       <a  href= " https://www.linkedin.com/company/seattle-angel-conference/about/"> <img class = "in" src= {linkedin} alt="in"/></a>
+       <a  href= "https://twitter.com/@nwangelconf"> <img   src= {twit} alt="twit"class = "twit"/></a>
+       <a  href= "https://www.meetup.com/Seattle-Angel/"> <img  src= {meetup} alt="meetup"class = "mail"/></a>
 
        <br/>
     

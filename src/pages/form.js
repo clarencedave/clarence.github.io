@@ -7,7 +7,7 @@ const formPage = () => (
 <br/> 
       <br/>
 
-
+    
      <form name = "contact" method = "post" netlify = "true">
      <input type="hidden" name="contact" value="contact" />  
      
@@ -45,7 +45,7 @@ const formPage = () => (
    
   
     </form>
-    
+   
 
     </Layout>
   )
