@@ -90,14 +90,14 @@ img {
 
 .card {
   color: black;
-  box-shadow: 0 4px 8px 0 white;
+  
   border-radius: 5px;
-
+  
 }
 
 .container {
   color: white;
-  padding: 0 16px;
+  padding: 0 20px;
 }
 
 .container::after, .row::after {
@@ -291,7 +291,8 @@ a:hover
 
 .contentname {
   background-color: white;
-  padding: 10px;
+  padding: 20px;
+  
 }
 
 .rowname:after {
@@ -352,35 +353,6 @@ a:hover
   padding: 8px;
 }
 
-.price {
-  list-style-type: none;
-  border: 1px solid #eee;
-  margin: 0;
-  padding: 0;
-  -webkit-transition: 0.3s;
-  transition: 0.3s;
-}
-
-.price:hover {
-  box-shadow: 0 8px 12px 0 rgba(0,0,0,0.2)
-}
-
-.price .header {
-  background-color: #111;
-  color: white;
-  font-size: 25px;
-}
-
-.price li {
-  border-bottom: 1px solid #eee;
-  padding: 20px;
-  text-align: center;
-}
-
-.price .grey {
-  background-color: #eee;
-  font-size: 20px;
-}
 
 .button {
   background-color: #4CAF50;
@@ -395,6 +367,18 @@ a:hover
 @media only screen and (max-width: 600px) {
   .columns {
     width: 100%;
+  }
+  
+  .quote {
+    margin-left: 50;
+    margin-right: auto;
+    width: 14em
+  }
+
+  .source {
+    margin-left: 50;
+    margin-right: auto;
+    width: 14em
   }
 }
 
@@ -1023,11 +1007,14 @@ h3 {padding: 0; margin: 0;}
   right: 0;
   width: 200px;
   height: 100px;
-  margin: 100px 0 0 300px;
+  margin: 40px 0 0 300px;
   padding: 1rem;
 
   
 }
+
+
+
 
 
 .fb {
@@ -1233,9 +1220,11 @@ h3 {padding: 0; margin: 0;}
 
 
 
-
-
-
+  @media only screen and (max-width: 600px) {
+    .Position {
+    display: none;
+  }
+}
 
 
 

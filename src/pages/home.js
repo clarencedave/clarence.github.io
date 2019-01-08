@@ -9,10 +9,11 @@ import logo from '../images/seattle-angel-logo.png'
 
 
 const homePage = () => (
+  
   <Layout>
-    
+   
       
-
+   
           <div class = "media"> 
             <div class="hero-image">
               <div class="hero-text">
@@ -31,7 +32,7 @@ const homePage = () => (
                              
             
           
-
+                               
 </Layout>
      
 

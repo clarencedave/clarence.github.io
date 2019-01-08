@@ -22,7 +22,7 @@ const Header = ({ siteTitle }) => (
   <div>
     
     
-
+    
 
   <div class="header">
   
@@ -40,9 +40,9 @@ const Header = ({ siteTitle }) => (
    
   
    <ul id="menu">
-   <a  href="home" >
+   <Link to="home" >
    <img src= {logo} alt="Angel"/>
-      </a>
+      </Link>
       <Link to="/"><li> <img src = {blog} alt = "Blog"/> Blog </li></Link>
       <Link to="contacts"><li><img src = {leader} alt = "Leadership"/> Team</li></Link>
       <Link to="form"><li><img src = {mail} alt = "Email"/> Contact Us</li></Link>
