@@ -19,9 +19,19 @@ import meetup from '../images/meetup.png'
 
 const Header = ({ siteTitle }) => (
   
-  <div>
+  <div style={{
+    background: 'darkblue',
+    marginBottom: '1.45rem',
+  }}>
     
-    
+    <div
+      style={{
+        margin: '0 auto',
+        maxWidth: 960,
+        padding: '1.0rem 2.0875rem',
+      }}
+    >
+    </div>
     
 
   <div class="header">
@@ -50,7 +60,7 @@ const Header = ({ siteTitle }) => (
       <Link to="entrepreneurs"><li><img src = {entrepreneurs} alt = "Entrepreneurs"/> Entrepreneurs</li></Link>
       <Link to="sponsor"><li><img src = {sponsor} alt = "Sponsors"/> Sponsors</li></Link>
       <Link to="conference"><li><img src = {conference} alt = "Conference"/> Conference</li></Link>
-       <a href="https://seattle-angel.netlify.com"><li><img class = "logo" src = {logo} alt = "Angel"/> Seattle Angel</li></a>
+      
        
    </ul>
    </div>

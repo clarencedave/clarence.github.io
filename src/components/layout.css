@@ -14,11 +14,12 @@ html {
 
 body {
  
- background: url(../images/background.png) no-repeat center center fixed;
+  background: url(../images/background.png) no-repeat center center fixed;
  background-size: cover;
  
  
 }
+
 
 
 .all {
@@ -179,7 +180,7 @@ a:hover
 {
   display: block;
   position: relative;
-  top: 50px;
+  top: 20px;
   left: 50px;
   
   z-index: 1;
@@ -304,6 +305,7 @@ a:hover
 .columnname {
   float: left;
   width: 50%;
+  
 }
 
 .rowname,
@@ -1228,6 +1230,15 @@ h3 {padding: 0; margin: 0;}
 
 
 
+.split {
+  height: 100%;
+  width: 50%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
 
 
 

@@ -41,7 +41,7 @@ const formPage = () => (
 
       <div data-netlify-recaptcha></div>
 
-   <button  type ="submit">Send</button>
+   <button class = "btnsubmit"  type ="submit">Send</button>
    
   
     </form>
