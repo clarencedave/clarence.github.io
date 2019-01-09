@@ -60,7 +60,7 @@ const Header = ({ siteTitle }) => (
       <Link to="entrepreneurs"><li><img src = {entrepreneurs} alt = "Entrepreneurs"/> Entrepreneurs</li></Link>
       <Link to="sponsor"><li><img src = {sponsor} alt = "Sponsors"/> Sponsors</li></Link>
       <Link to="conference"><li><img src = {conference} alt = "Conference"/> Conference</li></Link>
-      
+      <Link to="newsletter"><img   alt = ""/>  Newsletter</Link>
        
    </ul>
    </div>
