@@ -6,10 +6,7 @@ date: '2018-12-16'
 image: background.png
 ---
 
-<br/>
- <a href="/"> <b> Return </b> </a>
- <br/>
-    <br/>
+
 
 # Hello
 Lorem Ipsum is simply dummy text of the printing and typesetting industry.

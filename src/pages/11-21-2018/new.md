@@ -6,12 +6,6 @@ date: '2018-12-21'
 image: Lighthouse.jpg
 ---
 
-<br/>
- <a href="/"> <b> Return </b> </a>
- <br/>
-    <br/>
-
-    
 
 
 Lorem Ipsum is simply dummy text of the printing and typesetting industry.
