@@ -1993,7 +1993,10 @@ pre tt:after {
     font-size: 18px;
     text-align: right;
   }
-  
+
+  video {
+    width: 300;
+  }
   
  
 }

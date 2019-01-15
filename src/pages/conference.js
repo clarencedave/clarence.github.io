@@ -24,7 +24,7 @@ const conferencePage = () => (
 
         <h1>Seattle Angel Conference in 60 Seconds:</h1> 
         
-        <video width="400" controls>
+        <video class = "video"  width="400" controls>
         <source src={video} type="video/mp4"/>
         <source src={video} type="video/ogg"/>
         </video>
