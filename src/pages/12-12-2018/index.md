@@ -46,7 +46,7 @@ In addition to purchasing a company application ticket to the final event, you w
 
 Additional details here: http://www.seattleangelconference.com/p/entrepreneur_14.html.
 
-#### DATE AND TIME
+### DATE AND TIME
 Thu, February 28, 2019
 
 10:00 PM – 10:00 PM PST

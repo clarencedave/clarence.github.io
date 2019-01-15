@@ -30,8 +30,7 @@ const homePage = () => (
                                </div>
           
                              
-            
-          
+
                                
 </Layout>
      

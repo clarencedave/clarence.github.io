@@ -1230,29 +1230,20 @@ h3 {padding: 0; margin: 0;}
 
 
 
-.split {
-  height: 100%;
-  width: 50%;
-  position: fixed;
-  z-index: 1;
-  top: 0;
-  overflow-x: hidden;
-  padding-top: 20px;
+.centered {
+  position: absolute;
+  bottom: 8px;
+  right: 16px;
+  transform: translate(-30%, -20%);
+  color: white;
+  font-size: 24px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+.dew {
+  position: relative;
+  text-align: center;
+  color: white;
+}
 
 
 
